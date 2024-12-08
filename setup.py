@@ -2,7 +2,7 @@ from setuptools import find_packages,setup
 
 HYPEN_E_DOT='-e .'
 def get_requirements(file_path):
-    "This function will return the list of requirements"
+    "This function will return the list of python requirements "
     requirements=[]
     with open(file_path) as file_obj:
         requirements=file_obj.readlines()
